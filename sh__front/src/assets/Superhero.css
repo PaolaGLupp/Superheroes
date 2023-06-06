@@ -1,0 +1,26 @@
+
+.superhero-container{
+    margin: 10px;
+}
+
+.superhero-container{
+    margin: 20px;
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.superhero-img{
+    display: block;
+    min-width: 100%;
+    width: 240px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit:cover;
+    border-radius: 5px;
+}

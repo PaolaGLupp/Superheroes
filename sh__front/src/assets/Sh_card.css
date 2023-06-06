@@ -1,0 +1,53 @@
+
+
+.superhero-card{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 250px;
+    height: 330px;
+    box-shadow: none;
+    margin-left: 16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.text{
+    padding: 5px;
+}
+
+.title{
+    overflow: hidden;
+    color: black;
+}
+
+h4 {
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+}
+
+.img{
+    display: block;
+    min-height: 80%;
+    min-width: 100%;
+    width: 240px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit:cover;
+    border-radius: 5px;
+}
+
+
+.superhero-card .buttons{
+    position: absolute;
+    top: 80%;
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-self:center;
+}
